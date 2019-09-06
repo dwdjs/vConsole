@@ -2,7 +2,7 @@
 
 vConsole
 ==============================
-[![npm version](https://badge.fury.io/js/vconsole.svg)](https://badge.fury.io/js/vconsole) 
+[![npm version](https://badge.fury.io/js/vconsole.svg)](https://badge.fury.io/js/vconsole)
 
 一个轻量、可拓展、针对手机网页的前端开发者调试面板。
 
@@ -51,7 +51,7 @@ import 'path/to/vconsole.min.d.ts';
 
 ![](./example/snapshot/qrcode.png)
 
-[http://wechatfe.github.io/vconsole/demo.html](http://wechatfe.github.io/vconsole/demo.html)
+[https://dwdjs.github.io/vConsole/](https://dwdjs.github.io/vConsole/)
 
 ![](./example/snapshot/log_panel.png)
 

@@ -6,7 +6,8 @@
   "main": "dist/vconsole.min.js",
   "typings": "dist/vconsole.min.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "./README.md"
   ],
   "scripts": {
     "dev": "npm run build && npx http-server ./ -p 8901 -o",
