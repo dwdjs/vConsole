@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>vConsole/Demo1</title>
+  <title>vConsole</title>
   <link href="./lib/weui.min.css" rel="stylesheet"/>
   <link href="./lib/demo.css" rel="stylesheet"/>
 
@@ -11,12 +11,12 @@
   <script src="./lib/zepto.touch.min.js"></script>
 
   <!-- 引入vConsole的JS库 -->
-  <script src="../dist/vconsole.min.js"></script>
+  <script src="./dist/vconsole.min.js"></script>
 
 </head>
 <body ontouchstart>
   <div class="page">
-    <h1 class="page_title">Demo 1</h1>
+    <h1 class="page_title">vConsole demo</h1>
     <div class="weui_text_area">
       <p class="weui_msg_desc">点击下面的按钮，即可打印 log。<br/>点击右下角按钮，即可查看 log。</p>
     </div>
@@ -53,7 +53,7 @@ window.vConsole = new window.VConsole({
   }
 });
 
-console.info('欢迎使用 vConsole。vConsole 是一个由微信公众平台前端团队研发的 Web 前端开发者面板，可用于展示 console 日志，方便开发、调试。');
+// console.info('欢迎使用 vConsole。vConsole 是一个由微信公众平台前端团队研发的 Web 前端开发者面板，可用于展示 console 日志，方便开发、调试。');
 
 $('.js_btn_log').on('tap', function(e) {
   var type = $(this).data('type');

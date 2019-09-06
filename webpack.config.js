@@ -21,7 +21,7 @@ module.exports = {
       {
         test: /\.html$/, loader: 'html-loader?minimize=false'
       },
-      { 
+      {
         test: /\.js$/, loader: 'babel-loader'
       },
       {

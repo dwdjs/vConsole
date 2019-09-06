@@ -5,7 +5,13 @@
   "homepage": "https://github.com/Tencent/vConsole",
   "main": "dist/vconsole.min.js",
   "typings": "dist/vconsole.min.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "dev": "npm run build && npx http-server ./ -p 8901 -o",
+    "predeploy": "npm run build",
+    "deploy": "cp -rf ./dist ./example/dist && gh-pages -d example",
     "test": "mocha",
     "build": "webpack"
   },
@@ -33,12 +39,12 @@
     "html-loader": "^0.5.5",
     "jsdom": "^15.1.1",
     "json-loader": "^0.5.7",
-    "less": "^3.10.0",
+    "less": "^3.10.3",
     "less-loader": "^5.0.0",
-    "mocha": "^5.2.0",
+    "mocha": "^6.2.0",
     "style-loader": "^1.0.0",
-    "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.6"
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
   },
   "author": "Tencent",
   "license": "MIT"
